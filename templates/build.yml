@@ -1,5 +1,8 @@
+
 parameters:
-  buildConfiguration:'Release'
+  - name: buildConfiguration
+    type: string
+    default: 'Release'
 
 steps:
 
